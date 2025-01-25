@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal</title>
+    <link rel="icon" href="C:\Users\arjun\OneDrive\Desktop\python\new\photos\office_building.png">
+    <link rel="stylesheet" href="C:\Users\arjun\OneDrive\Desktop\python\new\style\project1.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to company HR Portal</h1>
+        <nav>
+            <ul>
+                <li class="navitem"><a href="#Employee-registration">Employee registration</a></li>
+                <li class="navitem"><a href="#Employee-directory">Employee directory</a></li>
+                <li class="navitem"><a href="#contact-us">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="C:\Users\arjun\OneDrive\Desktop\python\new\images\Working-from-Home-Illustration.jpg" alt="Image not found." width="600" height="400">
+
+    <section id="Employee-registration" class="registerform">
+        <h2>Employee Registration</h2>
+        <p>Fill the below form to register as <em>Employee.</em></p>
+        <form>
+            <label for="Firstname">First Name: </label>
+            <input type="text" placeholder="Enter First Name" id="Firstname" required><br><br>
+            
+            <label for="Lastname">Last Name: </label>
+            <input type="text" placeholder="Enter Last Name" id="Lastname"><br><br>
+
+            <label for="Email">Email id: </label>
+            <input type="email" placeholder="Enter Email id" id="Email" required><br><br>
+
+            <label for="Password">Password: </label>
+            <input type="password" placeholder="Password" id="Password" required><br><br>
+
+            <label for="Age">Age: </label>
+            <input type="number" placeholder="Age" id="Age"><br><br>
+
+            <label for="Gender">Select Gender: </label>
+            <input type="radio" value="male" id="Male" name="Gender" checked>
+            <label for="Male">Male</label>
+            <input type="radio" value="female" id="Female" name="Gender" checked>
+            <label for="Female">Female</label><br><br>
+
+            
+            <label for="Joiningdate">Joining Date: </label>
+            <input type="date" id="Joiningdate"><br><br>
+
+            <label for="role">Select Role: </label>
+            <select>
+                <option>Software Engineer</option>
+                <option>Production Manager</option>
+                <option>Designer</option>
+                <option>HR Representative</option>
+            </select><br><br>
+
+            <input type="submit"><br><br>
+        </form>
+    </section>
+       
+    <section id="Employee-directory" class="registerdirectory">
+        <h2>Employee directory</h2>
+        <p>List of all registered <em>Employee.</em></p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee role</th>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Arjun Dubey</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>243</td>
+                <td>Harry Wronto</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>268</td>
+                <td>Rahul Gupta</td>
+                <td>Production Manager</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact-us" class="contactus">
+        <h2>Contact Us</h2>
+        <p>You can contact us at arjunsquare01@gmail.com or visit us between 9 A.M.- 6 P.M.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.3714395158845!2d79.50050657490313!3d27.14460115008778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e198beb256e2f%3A0x5a47f3a05f0c3aeb!2sChhibramau%2C%20bus%20stand!5e0!3m2!1sen!2sin!4v1714113531822!5m2!1sen!2sin" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Company Name</p>
+    </footer>
+
+</body>
+</html>

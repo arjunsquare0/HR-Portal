@@ -1,0 +1,48 @@
+body{
+    padding:10px;
+    margin:5px;
+    background-color:hsl(0,0,90%);
+}
+
+header, footer{
+    color:rgb(10, 39, 39);
+    background-color: hsl(0, 3%, 45%);
+    text-align: center;
+    padding:2px;
+}
+
+.navitem{
+    display: inline;
+    padding:10px;
+}
+
+.navitem a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.registerform{
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registerdirectory{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border:1px solid rgb(85, 176, 101);
+    padding:7px;
+}
+
+.contactus{
+    text-align: center;
+}
